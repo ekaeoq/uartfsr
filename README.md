@@ -1,5 +1,4 @@
-# Comparison between measuring human touch and centered weight on a fsr402 sensor
-
+# Short Comparative Analysis of Human Touch and Centered Weight Measurements on an FSR402 Sensor
 ## About FSR402 (Force Sensing Resistor)
 As suggested by its name, an FSR sensor reacts to force. More precisely, it acts as a "resistor" that changes its resistance when force is applied. The more force applied, the less resistance it exhibits.<br>
 
