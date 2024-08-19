@@ -17,6 +17,7 @@ Received value: 3120<br />
 Received value: 3120<br /> 
 Received value: 3120<br /> 
 Received value: 3120<br /> 
+<b>Resulting in a average of: 3120.3</b>
 
 250g<br /> 
 Received value: 3138<br /> 
@@ -29,6 +30,7 @@ Received value: 3137<br />
 Received value: 3138<br /> 
 Received value: 3137<br /> 
 Received value: 3138<br /> 
+<b>Resulting in a average of: 3138.0</b>
 
 500g<br /> 
 Received value: 3180<br /> 
@@ -41,5 +43,6 @@ Received value: 3184<br />
 Received value: 3179<br /> 
 Received value: 3184<br /> 
 Received value: 3183<br /> 
+<b>Resulting in a average of: 3181.2</b>
 
 
