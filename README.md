@@ -5,11 +5,13 @@ As suggested by its name, an FSR sensor reacts to force. More precisely, it acts
 
 This sensor is not precise and is not intended for use in precise applications. It primarily works well with human touch, with an error margin of about 5% to 25%, when doing repeated tests though, it's closer to
 15% - 25%.
-
+## Hypotisis:
+good same surface good, finger shit, bad - more pressure more surface itd shit
 ## How to approach measurements
 
-As you get the sensor working, you'll initially see values that represent nothing. However, you'll notice an obvious change when pressure is applied to the sensor, resulting in higher values. To give these values meaning, we need to calibrate the sensor to a known standard. In this case, we'll compare the sensor readings to values in kilograms.
+As you get the sensor working, you'll initially see values that represent nothing. However, you'll notice an obvious change when pressure is applied to the sensor, resulting in higher values. To give these values meaning, we need to calibrate the sensor to a known standard. In this case, we'll compare the sensor readings to values in kilograms. As previously discussed in the hypotisis, we'll start with equally distirbuted measurement, because it will proablbly give us a better idea of how it works..
 
+## First measurement: Equally distributed measurement
 
 ### <b>Measurement 1: 0g</b><br />
 Received values: 3120, 3119, 3118, 3127, 3119, 3120, 3120, 3120, 3120, 3120
@@ -38,6 +40,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 - Resulting in a <b>average</b> of: 3242.3
 - Notes:
   - The measurements for 750g show greater fluctuations, likely due to instability during the measuring process or - the heavier the shitter arguement
+    
 ![Figure_4](https://github.com/user-attachments/assets/8e55ea92-de60-4f5f-b17e-cd488af81845)
 
 
