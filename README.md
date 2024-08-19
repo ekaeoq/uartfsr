@@ -63,4 +63,8 @@ Received value: 3239<br />
 Received value: 3245<br /> 
 <b>Resulting in a average of: 3242.3</b>
 
+Notes:
+Observation on Fluctuations:
+The measurements for 750g show greater fluctuations, likely due to instability during the measurement process.
+
 
