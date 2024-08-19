@@ -51,27 +51,9 @@ duration = get_duration()
 ser = serial.Serial(serial_port, baud_rate)
 
 try:
-    # Capture data for specified duration
-    print(f"Capturing data for {duration} seconds...")
-    x_data, y_data = [], []
-    start_time = time.time()
-    while time.time() - start_time < duration:
-        value = read_sensor()
-        if value is not None:
-            x_data.append(time.time() - start_time)
-            y_data.append(value)
-    
-    # ani = FuncAnimation(fig, animate, interval=50, blit=False)
-    # Plot the captured data
-    plt.figure(figsize=(10, 6))
-    plt.plot(x_data, y_data)
-    plt.title(f'FSR Sensor Readings ({duration} seconds)')
-    plt.xlabel('Time (s)')
-    plt.ylabel('Sensor Value')
-    plt.show()
-
     # Start live plotting
-    print("Starting live plotting. Close the window to stop.")
+    print(f"Capturing and live plotting data for {duration} seconds...")
+    
     fig, ax = plt.subplots()
     line, = ax.plot([], [], lw=2)
     ax.set_title('Live FSR Sensor Readings')
@@ -82,6 +64,20 @@ try:
     start_time = time.time()
 
     ani = FuncAnimation(fig, animate, interval=50, blit=False)
+
+    # Live plotting for the duration specified
+    plt.show(block=False)
+    plt.pause(duration)
+    
+    # After live plotting, close the live plot window
+    plt.close(fig)
+
+    # Plot the full data after capturing is done
+    plt.figure(figsize=(10, 6))
+    plt.plot(x_data, y_data)
+    plt.title(f'FSR Sensor Readings ({duration} seconds)')
+    plt.xlabel('Time (s)')
+    plt.ylabel('Sensor Value')
     plt.show()
 
 except KeyboardInterrupt:
@@ -89,3 +85,4 @@ except KeyboardInterrupt:
 finally:
     ser.close()
     print("Serial port closed")
+
