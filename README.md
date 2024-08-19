@@ -6,6 +6,8 @@ As suggested by its name, an FSR sensor reacts to force. More precisely, it acts
 This sensor is not precise and is not intended for use in precise applications. It primarily works well with human touch, with an error margin of about 5% to 25%, when doing repeated tests though, it's closer to
 15% - 25%.
 
+https://stackoverflow.com/questions/47402209/how-to-find-correlation-between-two-values
+
 ### <b>Measurement 1: 0g</b><br />
 
 Received value: 3120<br /> 
