@@ -45,27 +45,17 @@ Received value: 3184<br />
 Received value: 3183<br /> 
 <b>Resulting in a average of: 3181.2</b>
 
-Received value: 3209
-Received value: 3251
-Received value: 3221
-Received value: 3235
-Received value: 3238
-Received value: 3235
-Received value: 3239
-Received value: 3239
-Received value: 3248
-Received value: 3238
-Received value: 3238
-Received value: 3237
-Received value: 3245
-Received value: 3245
-Received value: 3245
-Received value: 3243
-Received value: 3239
-Received value: 3245
-Received value: 3237
-Received value: 3234
-Received value: 3218
-Received value: 3184
+750g<br /> (the reason this shit flactuates more if prlly cuz the shit was unstable)
+Received value: 3248<br /> 
+Received value: 3238<br /> 
+Received value: 3238<br /> 
+Received value: 3237<br /> 
+Received value: 3245<br /> 
+Received value: 3245<br /> 
+Received value: 3245<br /> 
+Received value: 3243<br /> 
+Received value: 3239<br /> 
+Received value: 3245<br /> 
+<b>Resulting in a average of: 3242.3</b>
 
 
