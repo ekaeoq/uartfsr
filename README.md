@@ -53,18 +53,6 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 ## Second measurement: Finger placed directly on sensor
 
 ### <b>Measurement 1: 0g</b><br />
-Received value: 3122
-Received value: 3120
-Received value: 3121
-Received value: 3120
-Received value: 3123
-Received value: 3122
-Received value: 3126
-Received value: 3121
-Received value: 3120
-Received value: 3118
-Received value: 3120
-Received value: 3121
 Received value: 3123
 Received value: 3125
 Received value: 3120
@@ -77,7 +65,6 @@ Received value: 3122
 Received value: 3125
 
 ### <b>Measurement 2: 250g</b><br />
-
 Received value: 3229
 Received value: 3231
 Received value: 3228
