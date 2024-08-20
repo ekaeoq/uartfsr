@@ -89,16 +89,16 @@ Received value: 3331 Weight: 0g 516
 Received value: 3238 Weight: 0g 522
 
 ### <b>Measurement 4: 750g</b><br />
-Received value: 3434 Weight: 0g
-Received value: 3439 Weight: 0g
-Received value: 3414 Weight: 0g
-Received value: 3419 Weight: 0g
-Received value: 3435 Weight: 0g
-Received value: 3435 Weight: 0g
-Received value: 3428 Weight: 0g
-Received value: 3435 Weight: 0g
-Received value: 3426 Weight: 0g
-Received value: 3439 Weight: 0g
+Received value: 3434 Weight: 0g 731
+Received value: 3439 Weight: 0g 765
+Received value: 3414 Weight: 0g 713
+Received value: 3419 Weight: 0g 752
+Received value: 3435 Weight: 0g 761
+Received value: 3435 Weight: 0g 745
+Received value: 3428 Weight: 0g 730
+Received value: 3435 Weight: 0g 763
+Received value: 3426 Weight: 0g 741
+Received value: 3439 Weight: 0g 762
 
 
 
