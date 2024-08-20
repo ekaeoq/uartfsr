@@ -53,52 +53,52 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 ## Second measurement: Finger placed directly on sensor
 
 ### <b>Measurement 1: 0g</b><br />
-Received value: 3123
-Received value: 3125
-Received value: 3120
-Received value: 3122
-Received value: 3120
-Received value: 3122
-Received value: 3120
-Received value: 3120
-Received value: 3122
-Received value: 3125
+Received value: 3123 Weight: 0g
+Received value: 3125 Weight: 0g
+Received value: 3120 Weight: 0g
+Received value: 3122 Weight: 0g
+Received value: 3120 Weight: 0g
+Received value: 3122 Weight: 0g
+Received value: 3120 Weight: 0g
+Received value: 3120 Weight: 0g
+Received value: 3122 Weight: 0g
+Received value: 3125 Weight: 0g
 
 ### <b>Measurement 2: 250g</b><br />
-Received value: 3229
-Received value: 3231
-Received value: 3228
-Received value: 3227
-Received value: 3231
-Received value: 3230
-Received value: 3232
-Received value: 3230
-Received value: 3227
-Received value: 3234
+Received value: 3229 Weight: 0g249
+Received value: 3231 Weight: 0g249
+Received value: 3228 Weight: 0g248
+Received value: 3227 Weight: 0g254
+Received value: 3231 Weight: 0g257
+Received value: 3230 Weight: 0g260
+Received value: 3232 Weight: 0g259
+Received value: 3230 Weight: 0g250
+Received value: 3227 Weight: 0g242
+Received value: 3234 Weight: 0g263
 
 ### <b>Measurement 3: 500g</b><br />
-Received value: 3319
-Received value: 3324
-Received value: 3328
-Received value: 3327
-Received value: 3331
-Received value: 3329
-Received value: 3329
-Received value: 3334
-Received value: 3331
-Received value: 3238
+Received value: 3319 Weight: 0g
+Received value: 3324 Weight: 0g
+Received value: 3328 Weight: 0g
+Received value: 3327 Weight: 0g
+Received value: 3331 Weight: 0g
+Received value: 3329 Weight: 0g
+Received value: 3329 Weight: 0g
+Received value: 3334 Weight: 0g
+Received value: 3331 Weight: 0g
+Received value: 3238 Weight: 0g
 
 ### <b>Measurement 4: 750g</b><br />
-Received value: 3434
-Received value: 3439
-Received value: 3414
-Received value: 3419
-Received value: 3435
-Received value: 3435
-Received value: 3428
-Received value: 3435
-Received value: 3426
-Received value: 3439
+Received value: 3434 Weight: 0g
+Received value: 3439 Weight: 0g
+Received value: 3414 Weight: 0g
+Received value: 3419 Weight: 0g
+Received value: 3435 Weight: 0g
+Received value: 3435 Weight: 0g
+Received value: 3428 Weight: 0g
+Received value: 3435 Weight: 0g
+Received value: 3426 Weight: 0g
+Received value: 3439 Weight: 0g
 
 
 
