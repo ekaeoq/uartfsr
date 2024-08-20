@@ -46,6 +46,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 
 
 ### Structured Data
+tu budem usporedil sve dvije(tri - ako ukljucim jos ono prst+gumica)  da vidimo kolki je deviation od svega
 
 |**Time(in seconds)**| **0 g** | **250 g** | **500 g** | **750 g** |
 |-----------|-----------|-----------|-----------|-----------|
