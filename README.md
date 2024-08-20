@@ -15,7 +15,7 @@ As you get the sensor working, you'll initially see values that represent nothin
 We will approach this using three different methods: first, by applying equally distributed weight; second, by simply placing a finger on the sensor; and lastly, by using the same rubber from the first method to better distribute the finger's weight.
 - ### Three separate measurement techniques:
     - Equally distributed weight
-    - Finger on sensor
+    - Finger placed directly on sensor
     - Equally distributed finger's weight
 
 ## First measurement: Equally distributed measurement
@@ -49,6 +49,71 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
   - The measurements for 750g show greater fluctuations, likely due to instability during the measuring process or - the heavier the shitter arguement
     
 ![Figure_4](https://github.com/user-attachments/assets/8e55ea92-de60-4f5f-b17e-cd488af81845)
+
+## Second measurement: Finger placed directly on sensor
+
+### <b>Measurement 1: 0g</b><br />
+Received value: 3122
+Received value: 3120
+Received value: 3121
+Received value: 3120
+Received value: 3123
+Received value: 3122
+Received value: 3126
+Received value: 3121
+Received value: 3120
+Received value: 3118
+Received value: 3120
+Received value: 3121
+Received value: 3123
+Received value: 3125
+Received value: 3120
+Received value: 3122
+Received value: 3120
+Received value: 3122
+Received value: 3120
+Received value: 3120
+Received value: 3122
+Received value: 3125
+
+### <b>Measurement 2: 250g</b><br />
+
+Received value: 3229
+Received value: 3231
+Received value: 3228
+Received value: 3227
+Received value: 3231
+Received value: 3230
+Received value: 3232
+Received value: 3230
+Received value: 3227
+Received value: 3234
+
+### <b>Measurement 3: 500g</b><br />
+Received value: 3319
+Received value: 3324
+Received value: 3328
+Received value: 3327
+Received value: 3331
+Received value: 3329
+Received value: 3329
+Received value: 3334
+Received value: 3331
+Received value: 3238
+
+### <b>Measurement 4: 750g</b><br />
+Received value: 3434
+Received value: 3439
+Received value: 3414
+Received value: 3419
+Received value: 3435
+Received value: 3435
+Received value: 3428
+Received value: 3435
+Received value: 3426
+Received value: 3439
+
+
 
 
 ### Structured Data
