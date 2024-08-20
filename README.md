@@ -14,9 +14,9 @@ As you get the sensor working, you'll initially see values that represent nothin
 
 We will approach this using three different methods: first, by applying equally distributed weight; second, by simply placing a finger on the sensor; and lastly, by using the same rubber from the first method to better distribute the finger's weight.
 - ### Three separate measurement techniques:
-    - 1) Equally distributed weight
-    - 2) Finger on sensor
-    - 3) Equally distributed finger's weight
+    - Equally distributed weight
+    - Finger on sensor
+    - Equally distributed finger's weight
 
 ## First measurement: Equally distributed measurement
 
