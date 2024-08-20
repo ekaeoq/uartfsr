@@ -52,53 +52,134 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 
 ## Second measurement: Finger placed directly on sensor
 
-### <b>Measurement 1: 0g</b><br />
-Received value: 3123 Weight: 0g
-Received value: 3125 Weight: 0g
-Received value: 3120 Weight: 0g
-Received value: 3122 Weight: 0g
-Received value: 3120 Weight: 0g
-Received value: 3122 Weight: 0g
-Received value: 3120 Weight: 0g
-Received value: 3120 Weight: 0g
-Received value: 3122 Weight: 0g
-Received value: 3125 Weight: 0g
+### Measurement 1: 0g
 
-### <b>Measurement 2: 250g</b><br />
-Received value: 3229 Weight: 0g249
-Received value: 3231 Weight: 0g249
-Received value: 3228 Weight: 0g248
-Received value: 3227 Weight: 0g254
-Received value: 3231 Weight: 0g257
-Received value: 3230 Weight: 0g260
-Received value: 3232 Weight: 0g259
-Received value: 3230 Weight: 0g250
-Received value: 3227 Weight: 0g242
-Received value: 3234 Weight: 0g263
+<table>
+  <tr>
+    <td>
+      <img src="path_to_your_graph1.png" alt="Measurement 1 Graph" style="width: 400px;">
+    </td>
+    <td>
+      <table>
+        <thead>
+          <tr>
+            <th>Received Value</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>3123</td><td>0g</td></tr>
+          <tr><td>3125</td><td>0g</td></tr>
+          <tr><td>3120</td><td>0g</td></tr>
+          <tr><td>3122</td><td>0g</td></tr>
+          <tr><td>3120</td><td>0g</td></tr>
+          <tr><td>3122</td><td>0g</td></tr>
+          <tr><td>3120</td><td>0g</td></tr>
+          <tr><td>3120</td><td>0g</td></tr>
+          <tr><td>3122</td><td>0g</td></tr>
+          <tr><td>3125</td><td>0g</td></tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</table>
 
-### <b>Measurement 3: 500g</b><br />
-Received value: 3319 Weight: 0g 486
-Received value: 3324 Weight: 0g 494
-Received value: 3328 Weight: 0g 499
-Received value: 3327 Weight: 0g 495
-Received value: 3331 Weight: 0g 505
-Received value: 3329 Weight: 0g 492
-Received value: 3329 Weight: 0g 516
-Received value: 3334 Weight: 0g 511
-Received value: 3331 Weight: 0g 516
-Received value: 3238 Weight: 0g 522
+### Measurement 2: 250g
 
-### <b>Measurement 4: 750g</b><br />
-Received value: 3434 Weight: 0g 731
-Received value: 3439 Weight: 0g 765
-Received value: 3414 Weight: 0g 713
-Received value: 3419 Weight: 0g 752
-Received value: 3435 Weight: 0g 761
-Received value: 3435 Weight: 0g 745
-Received value: 3428 Weight: 0g 730
-Received value: 3435 Weight: 0g 763
-Received value: 3426 Weight: 0g 741
-Received value: 3439 Weight: 0g 762
+<table>
+  <tr>
+    <td>
+      <img src="path_to_your_graph2.png" alt="Measurement 2 Graph" style="width: 400px;">
+    </td>
+    <td>
+      <table>
+        <thead>
+          <tr>
+            <th>Received Value</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>3229</td><td>249g</td></tr>
+          <tr><td>3231</td><td>249g</td></tr>
+          <tr><td>3228</td><td>248g</td></tr>
+          <tr><td>3227</td><td>254g</td></tr>
+          <tr><td>3231</td><td>257g</td></tr>
+          <tr><td>3230</td><td>260g</td></tr>
+          <tr><td>3232</td><td>259g</td></tr>
+          <tr><td>3230</td><td>250g</td></tr>
+          <tr><td>3227</td><td>242g</td></tr>
+          <tr><td>3234</td><td>263g</td></tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</table>
+
+### Measurement 3: 500g
+
+<table>
+  <tr>
+    <td>
+      <img src="path_to_your_graph3.png" alt="Measurement 3 Graph" style="width: 400px;">
+    </td>
+    <td>
+      <table>
+        <thead>
+          <tr>
+            <th>Received Value</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>3319</td><td>486g</td></tr>
+          <tr><td>3324</td><td>494g</td></tr>
+          <tr><td>3328</td><td>499g</td></tr>
+          <tr><td>3327</td><td>495g</td></tr>
+          <tr><td>3331</td><td>505g</td></tr>
+          <tr><td>3329</td><td>492g</td></tr>
+          <tr><td>3329</td><td>516g</td></tr>
+          <tr><td>3334</td><td>511g</td></tr>
+          <tr><td>3331</td><td>516g</td></tr>
+          <tr><td>3238</td><td>522g</td></tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</table>
+
+### Measurement 4: 750g
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/7229b94f-b077-4766-b81f-fe95ebeef32c" alt="Measurement 4 Graph" style="width: 600px;">
+    </td>
+    <td>
+      <table>
+        <thead>
+          <tr>
+            <th>Received Value</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>3434</td><td>731g</td></tr>
+          <tr><td>3439</td><td>765g</td></tr>
+          <tr><td>3414</td><td>713g</td></tr>
+          <tr><td>3419</td><td>752g</td></tr>
+          <tr><td>3435</td><td>761g</td></tr>
+          <tr><td>3435</td><td>745g</td></tr>
+          <tr><td>3428</td><td>730g</td></tr>
+          <tr><td>3435</td><td>763g</td></tr>
+          <tr><td>3426</td><td>741g</td></tr>
+          <tr><td>3439</td><td>762g</td></tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</table>
+
 
 
 
