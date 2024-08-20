@@ -77,16 +77,16 @@ Received value: 3227 Weight: 0g242
 Received value: 3234 Weight: 0g263
 
 ### <b>Measurement 3: 500g</b><br />
-Received value: 3319 Weight: 0g
-Received value: 3324 Weight: 0g
-Received value: 3328 Weight: 0g
-Received value: 3327 Weight: 0g
-Received value: 3331 Weight: 0g
-Received value: 3329 Weight: 0g
-Received value: 3329 Weight: 0g
-Received value: 3334 Weight: 0g
-Received value: 3331 Weight: 0g
-Received value: 3238 Weight: 0g
+Received value: 3319 Weight: 0g 486
+Received value: 3324 Weight: 0g 494
+Received value: 3328 Weight: 0g 499
+Received value: 3327 Weight: 0g 495
+Received value: 3331 Weight: 0g 505
+Received value: 3329 Weight: 0g 492
+Received value: 3329 Weight: 0g 516
+Received value: 3334 Weight: 0g 511
+Received value: 3331 Weight: 0g 516
+Received value: 3238 Weight: 0g 522
 
 ### <b>Measurement 4: 750g</b><br />
 Received value: 3434 Weight: 0g
