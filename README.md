@@ -57,7 +57,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 <table>
   <tr>
     <td>
-      <img src="path_to_your_graph1.png" alt="Measurement 1 Graph" style="width: 400px;">
+      <img src="https://github.com/user-attachments/assets/e3b9d70f-6f4d-42a5-a338-9fa6f00e922e" alt="Measurement 1 Graph" style="width: 600px;">
     </td>
     <td>
       <table>
@@ -89,7 +89,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 <table>
   <tr>
     <td>
-      <img src="path_to_your_graph2.png" alt="Measurement 2 Graph" style="width: 400px;">
+      <img src="https://github.com/user-attachments/assets/1e0fb42f-4274-4027-a58d-48fbb0baf89a" alt="Measurement 2 Graph" style="width: 600px;">
     </td>
     <td>
       <table>
@@ -121,7 +121,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 <table>
   <tr>
     <td>
-      <img src="path_to_your_graph3.png" alt="Measurement 3 Graph" style="width: 400px;">
+      <img src="https://github.com/user-attachments/assets/d7e6476f-0b87-42c3-b6bb-4f56d2f850d2" alt="Measurement 3 Graph" style="width: 600px;">
     </td>
     <td>
       <table>
@@ -153,7 +153,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 <table>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/7229b94f-b077-4766-b81f-fe95ebeef32c" alt="Measurement 4 Graph" style="width: 600px;">
+        <img src="https://github.com/user-attachments/assets/97193a1d-c43d-4551-b1bc-fc05bccfa2da" alt="Measurement 4 Graph" style="width: 600px;">
     </td>
     <td>
       <table>
