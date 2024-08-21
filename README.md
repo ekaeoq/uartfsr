@@ -253,6 +253,30 @@ Let's calculate the standard deviation for the fixed weight of 250g as well as f
     
     ${Standard Deviation} = \sqrt{\text{Variance}} = \sqrt{4.5} \approx 2.12$
 
+We repeat the process for each set of values and get all the standard deviation values, the values slightly deviate from the ones calculated with a python script, due to rounding up
+#### Standard deviation for all sets of measurements:
+
+-Standard Deviation for Equally Distributed Weight Method:
+
+    0g      2.451757
+    
+    250g    0.816497
+    
+    500g    2.658320
+    
+    750g    3.917199
+
+-Standard Deviation for Finger Measurement Method:
+
+    0g: 1.9692073983655907
+    
+    240 - 260 g: 1.8104634152000358
+    
+    480 - 520 g: 4.387482193696061
+    
+    730 - 770 g: 6.610177338350647
+
+
 
 
 
