@@ -235,7 +235,7 @@ For the first method(equally distirbuted weight) we simply apply the fomrula ove
 
 ##### Example:
 Let's calculate the standard deviation for the fixed weight of 250g as well as for the range of 240-260g
-- Fixed:
+- Equally distributed weight:
   
     ${Mean} = \frac{3138 + 3137 + 3139 + 3139 + 3139 + 3138 + 3137 + 3138 + 3137 + 3138}{10} = 3138$
     
@@ -247,7 +247,7 @@ Let's calculate the standard deviation for the fixed weight of 250g as well as f
 
 </br>
 
-- Finger:
+- Finger placed directly on sensor:
   
     ${Mean} = \frac{3228 + 3229 + 3230 + 3231 + 3234 + 3227 + 3227 + 3231 + 3232 + 3230}{10} \approx 3230$
     
@@ -282,15 +282,38 @@ We repeat the process for each set of values and get all the standard deviation 
 
 
 
-
-
-
-
-
 ### Pearson correlation coefficient
-Coincidentally enough, I already calcualted the standard deviation for both sets before stumbilig upon the Idea for [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) that was found while browsing [stackoverflow](https://stackoverflow.com/questions/47402209/how-to-find-correlation-between-two-values)
+Coincidentally enough, I already calcualted the standard deviation for both sets before stumbilig upon the idea for [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) that was found while browsing [stackoverflow](https://stackoverflow.com/questions/47402209/how-to-find-correlation-between-two-values)
 
-stavi sad pearsons, to je kombinacija standardne i covariance, na kraju razlozi obadvoje
+Simply put, Pearson correlation coefficient is a way of determining **how** linear 2 sets of data are, using this simple python script we calucated the correlation between our 2 sets of data for both methods used:
+
+ ```Python
+import numpy as np
+
+def pearson_correlation(x, y):
+    x_mean = np.mean(x)
+    y_mean = np.mean(y)
+    
+    numerator = np.sum((x - x_mean) * (y - y_mean))
+    denominator = np.sqrt(np.sum((x - x_mean)**2) * np.sum((y - y_mean)**2))
+    
+    correlation = numerator / denominator
+    return correlation
+
+x = [3120.3, 3138.0, 3181.2, 3242.3]
+y = [0, 250, 500, 750]
+
+result = pearson_correlation(x, y)
+print(f"Pearson correlation coefficient: {result}")
+```
+
+From what I've read, there's a certain threshold to determine what makes a system linear, usually that would be deviations less than 0.05, meaning our system shouldn't have a pearson's coefficient lower than 95. That threshold can obviously vary system to system, the same way any system is obviously less or more linear.
+
+In our case, we end up with these values:
+- Equally distributed weight
+    Pearson correlation coefficient: 0.9991485447127495
+- Finger placed directly on sensor
+    Pearson correlation coefficient: 0.9728523094748889
 
 ### Conclusion
 
