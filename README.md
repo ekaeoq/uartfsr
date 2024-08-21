@@ -63,7 +63,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
       <table>
         <thead>
           <tr>
-            <th>Received Value</th>
+            <th>Sensor Values</th>
             <th>Weight</th>
           </tr>
         </thead>
@@ -96,7 +96,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
       <table>
         <thead>
           <tr>
-            <th>Received Value</th>
+            <th>Sensor Values</th>
             <th>Weight</th>
           </tr>
         </thead>
@@ -129,7 +129,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
       <table>
         <thead>
           <tr>
-            <th>Received Value</th>
+            <th>Sensor Values</th>
             <th>Weight</th>
           </tr>
         </thead>
@@ -162,7 +162,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
       <table>
         <thead>
           <tr>
-            <th>Received Value</th>
+            <th>Sensor Values</th>
             <th>Weight</th>
           </tr>
         </thead>
