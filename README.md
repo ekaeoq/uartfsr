@@ -83,6 +83,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
     </td>
   </tr>
 </table>
+- Resulting in a <b>average</b> of: 3121.9
 
 ### Measurement 2: 250g
 
@@ -115,6 +116,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
     </td>
   </tr>
 </table>
+- Resulting in a <b>average</b> of: 3229.9
 
 ### Measurement 3: 500g
 
@@ -147,6 +149,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
     </td>
   </tr>
 </table>
+- Resulting in a <b>average</b> of: 3319
 
 ### Measurement 4: 750g
 
@@ -179,6 +182,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
     </td>
   </tr>
 </table>
+- Resulting in a <b>average</b> of: 3430.4
 
 
 
@@ -258,23 +262,23 @@ We repeat the process for each set of values and get all the standard deviation 
 
 - Standard Deviation for Equally Distributed Weight Method:
 
-    <b>0 g</b>     2.451757
+    <b>0 g:</b>     2.451757
     
-    <b>250 g</b>     0.816497
+    <b>250 g:</b>     0.816497
     
-    <b>500 g</b>     2.658320
+    <b>500 g:</b>     2.658320
     
-    <b>750 g</b>     3.917199
+    <b>750 g:</b>     3.917199
 
 - Standard Deviation for Finger Measurement Method:
 
-    <b>0 g</b>  1.9692073983655907
+    <b>0 g:</b>  1.9692073983655907
     
-    <b>240 - 260 g</b>  1.8104634152000358
+    <b>240 - 260 g:</b>  1.8104634152000358
     
-    <b>480 - 520 g</b>  4.387482193696061
+    <b>480 - 520 g:</b>  4.387482193696061
     
-    <b>730 - 770 g</b>  6.610177338350647
+    <b>730 - 770 g:</b>  6.610177338350647
 
 
 
