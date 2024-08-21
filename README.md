@@ -213,7 +213,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 | 10                | 3125            | 3234             | 3238             | 3439             |
 
 
-tu budem usporedil sve dvije(tri - ako ukljucim jos ono prst+gumica)  da vidimo kolki je deviation od svega
+### Initial observation
 
 The most obvious thing we noticed from the get go is that the values for the same/similar weights are very different. That is because the finger probably surface was smaller which resulted in more force applied on a smaller surface area, in fact that is one of the requierement in the official guidelines on how ot use fsr402 sensors: 
 
@@ -226,9 +226,12 @@ cycle-to-cycle, then repeatability will be maintained. The use of a thin elastom
 ```
 
 
-Idea for [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) was found while browsing [stackoverflow](https://stackoverflow.com/questions/47402209/how-to-find-correlation-between-two-values)
+### Calculating the standard deviation
 
 Kaj se tu sad desilo je da je makar je equally distirbuted metoda bolja, tocnija i standard deviatio nje mnogo manje i dalje je tu problem da bu jednostavno krive vrijednosti pokazival za prst, jer jedinostavno nije kalibriran za taj dio, i to je tocno ono kaj  smo govoirlil na prvom djelu ovog naseg teksta, taj sensor je napravljen za prste, so probably for the sake fo getting somewhat dobre vrijednosti bumo morali uporabiti manje tocniju metdu, samo da dobimo toncije vrijednosti
+
+### Pearson correlation coefficient
+Coincidentally enough, I already calcualted the standard deviation for both sets before stumbilig upon the Idea for [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) that was found while browsing [stackoverflow](https://stackoverflow.com/questions/47402209/how-to-find-correlation-between-two-values)
 
 stavi sad pearsons, to je kombinacija standardne i covariance, na kraju razlozi obadvoje
 
