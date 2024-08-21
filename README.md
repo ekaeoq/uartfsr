@@ -311,8 +311,11 @@ From what I've read, there's a certain threshold to determine what makes a syste
 
 In our case, we end up with these values:
 - Equally distributed weight
+  
     Pearson correlation coefficient: 0.9991485447127495
+  
 - Finger placed directly on sensor
+  
     Pearson correlation coefficient: 0.9728523094748889
 
 ### Conclusion
