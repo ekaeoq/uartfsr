@@ -258,23 +258,23 @@ We repeat the process for each set of values and get all the standard deviation 
 
 - Standard Deviation for Equally Distributed Weight Method:
 
-    0g      2.451757
+    <b>0 g</b>     2.451757
     
-    250g    0.816497
+    <b>250 g</b>     0.816497
     
-    500g    2.658320
+    <b>500 g</b>     2.658320
     
-    750g    3.917199
+    <b>750 g</b>     3.917199
 
 - Standard Deviation for Finger Measurement Method:
 
-    0g: 1.9692073983655907
+    <b>0 g</b>  1.9692073983655907
     
-    240 - 260 g: 1.8104634152000358
+    <b>240 - 260 g</b>  1.8104634152000358
     
-    480 - 520 g: 4.387482193696061
+    <b>480 - 520 g</b>  4.387482193696061
     
-    730 - 770 g: 6.610177338350647
+    <b>730 - 770 g</b>  6.610177338350647
 
 
 
