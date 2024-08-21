@@ -231,6 +231,32 @@ For the first method(equally distirbuted weight) we simply apply the fomrula ove
 
 ##### Example:
 Let's calculate the standard deviation for the fixed weight of 250g as well as for the range of 240-260g
+- Fixed:
+  
+    ${Mean} = \frac{3138 + 3137 + 3139 + 3139 + 3139 + 3138 + 3137 + 3138 + 3137 + 3138}{10} = 3138$
+    
+    ${Variance} = \frac{(3138 - 3138)^2 + (3137 - 3138)^2 + (3139 - 3138)^2 + \dots + (3138 - 3138)^2}{10}$
+    
+    ${Variance} = \frac{(0)^2 + (-1)^2 + (1)^2 + (1)^2 + (1)^2 + (0)^2 + (-1)^2 + (0)^2 + (-1)^2 + (0)^2}{10} = \frac{6}{10} = 0.6$
+    
+    ${Standard Deviation} = \sqrt{\text{Variance}} = \sqrt{0.6} \approx 0.775$
+
+</br>
+
+- Finger:
+  
+    ${Mean} = \frac{3228 + 3229 + 3230 + 3231 + 3234 + 3227 + 3227 + 3231 + 3232 + 3230}{10} \approx 3230$
+    
+    ${Variance} = \frac{(3228 - 3230)^2 + (3229 - 3230)^2 + (3230 - 3230)^2 + \dots + (3230 - 3230)^2}{10}$
+    
+    ${Variance} = \frac{(-2)^2 + (-1)^2 + (0)^2 + (1)^2 + (4)^2 + (-3)^2 + (-3)^2 + (1)^2 + (2)^2 + (0)^2}{10} = \frac{45}{10} = 4.5$
+    
+    ${Standard Deviation} = \sqrt{\text{Variance}} = \sqrt{4.5} \approx 2.12$
+
+
+
+
+
 
 
 ### Pearson correlation coefficient
