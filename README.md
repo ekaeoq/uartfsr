@@ -256,7 +256,7 @@ Let's calculate the standard deviation for the fixed weight of 250g as well as f
 We repeat the process for each set of values and get all the standard deviation values, the values slightly deviate from the ones calculated with a python script, due to rounding up
 #### Standard deviation for all sets of measurements:
 
--Standard Deviation for Equally Distributed Weight Method:
+- Standard Deviation for Equally Distributed Weight Method:
 
     0g      2.451757
     
@@ -266,7 +266,7 @@ We repeat the process for each set of values and get all the standard deviation 
     
     750g    3.917199
 
--Standard Deviation for Finger Measurement Method:
+- Standard Deviation for Finger Measurement Method:
 
     0g: 1.9692073983655907
     
