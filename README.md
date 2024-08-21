@@ -202,6 +202,38 @@ tu budem usporedil sve dvije(tri - ako ukljucim jos ono prst+gumica)  da vidimo 
 
 Idea for [Pearson's average](https://stackoverflow.com/questions/47402209/how-to-find-correlation-between-two-values) was found while browsing [stackoverflow](https://stackoverflow.com/questions/47402209/how-to-find-correlation-between-two-values)
 
+Kaj se tu sad desilo je da je makar je equally distirbuted metoda bolja, tocnija i standard deviatio nje mnogo manje i dalje je tu problem da bu jednostavno krive vrijednosti pokazival za prst, jer jedinostavno nije kalibriran za taj dio, i to je tocno ono kaj  smo govoirlil na prvom djelu ovog naseg teksta, taj sensor je napravljen za prste, so probably for the sake fo getting somewhat dobre vrijednosti bumo morali uporabiti manje tocniju metdu, samo da dobimo toncije vrijednosti
+
+## Methods used for each segment
+- ### Plotting graphs
+
+    This script was used to generate graphs 
+
+    ```Python
+    import matplotlib.pyplot as plt
+    
+    # Your data
+    data = [3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245]
+    
+    # Time points (assuming one value per second)
+    time = list(range(1, len(data) + 1))
+    
+    # Create the plot
+    plt.figure(figsize=(8, 4))
+    plt.plot(time, data, marker='o', color='b', linestyle='-', linewidth=2, markersize=5)
+    
+    # Add titles and labels
+    plt.title('Received Values Over Time')
+    plt.xlabel('Time (seconds)')
+    plt.ylabel('Received Value')
+    
+    # Save the plot as an image
+    plt.savefig('received_values_plot.png')
+    
+    # Show the plot
+    plt.show()
+    ```
+
 
 
 
