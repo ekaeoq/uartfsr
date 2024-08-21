@@ -184,8 +184,18 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 
 
 
-### Structured Data
+## Let's compare both results
 tu budem usporedil sve dvije(tri - ako ukljucim jos ono prst+gumica)  da vidimo kolki je deviation od svega
+
+The most obvious thing we noticed from the get go is that the values for the same/similar weights are very different. That is because the finger probably surface was smaller which resulted in more force applied on a smaller surface area, in fact that is one of the requierement in the official guidelines on how ot use fsr402 sensors: 
+
+```
+Provide a consistent force distribution. FSR response is very sensitive to the distribution of the applied force. In general, this precludes the use of dead weights for characterization since exact duplication of the weight
+
+distribution is rarely repeatable cycle-to-cycle. A consistent weight (force) distribution is more difficult to achieve than merely obtaining a consistent total applied weight (force). As long as the distribution is the same
+
+cycle-to-cycle, then repeatability will be maintained. The use of a thin elastomer between the applied force and the FSR can help absorb error from inconsistent force distributions.
+```
 
 |**Time(in seconds)**| **0 g** | **250 g** | **500 g** | **750 g** |
 |-----------|-----------|-----------|-----------|-----------|
@@ -200,9 +210,25 @@ tu budem usporedil sve dvije(tri - ako ukljucim jos ono prst+gumica)  da vidimo 
 |9          | 3120      | 3137      | 3184      | 3239      |
 |10         | 3120      | 3138      | 3183      | 3245      |
 
+| Time (in seconds) | 0 g | 240 - 260 g | 480 - 520 g | 730 -770 g |
+|-------------------|-----------------|------------------|------------------|------------------|
+| 1                 | 3123            | 3229             | 3319             | 3434             |
+| 2                 | 3125            | 3231             | 3324             | 3439             |
+| 3                 | 3120            | 3228             | 3328             | 3414             |
+| 4                 | 3122            | 3227             | 3327             | 3419             |
+| 5                 | 3120            | 3231             | 3331             | 3435             |
+| 6                 | 3122            | 3230             | 3329             | 3435             |
+| 7                 | 3120            | 3232             | 3329             | 3428             |
+| 8                 | 3120            | 3230             | 3334             | 3435             |
+| 9                 | 3122            | 3227             | 3331             | 3426             |
+| 10                | 3125            | 3234             | 3238             | 3439             |
+
+
 Idea for [Pearson's average](https://stackoverflow.com/questions/47402209/how-to-find-correlation-between-two-values) was found while browsing [stackoverflow](https://stackoverflow.com/questions/47402209/how-to-find-correlation-between-two-values)
 
 Kaj se tu sad desilo je da je makar je equally distirbuted metoda bolja, tocnija i standard deviatio nje mnogo manje i dalje je tu problem da bu jednostavno krive vrijednosti pokazival za prst, jer jedinostavno nije kalibriran za taj dio, i to je tocno ono kaj  smo govoirlil na prvom djelu ovog naseg teksta, taj sensor je napravljen za prste, so probably for the sake fo getting somewhat dobre vrijednosti bumo morali uporabiti manje tocniju metdu, samo da dobimo toncije vrijednosti
+
+another idea is that we could use, (because of lineararity), is that we use the 2nd values for ranges from 240-260 as our starting point, where we could perhaps get more accurate measurements, clearly becauase our accureacy(measured by Standard deviation) was lower as the weight increased(because using the finger to distributed weight was getting harder and harder)
 
 ## Methods used for each segment
 - ### Plotting graphs
