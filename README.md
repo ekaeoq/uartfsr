@@ -227,7 +227,10 @@ cycle-to-cycle, then repeatability will be maintained. The use of a thin elastom
 
 
 ### Calculating the standard deviation
-For the first method(equally distirbuted) we simply apply the fomrula over the given measurement, where with the second(finger menthod) we calculte the standard diviation over a set of given ranges, honestly considering the sensors predetermined error, those values are negliable
+For the first method(equally distirbuted weight) we simply apply the fomrula over the given measurement, where with the second(finger placed directly on sensor) we calculte the standard diviation over a set of given ranges, that we must do simply because of the nature of how we place our finger on the sensor, it is also very hard to account for the already mentioned active surface, rather it's hard to determine what exact surface of the finer is being placed on top of the active area, taking all that into consideration, honestly with the sensors predetermined error, those values are negliable
+
+##### Example:
+Let's calculate the standard deviation for the fixed weight of 250g as well as for the range of 240-260g
 
 
 ### Pearson correlation coefficient
