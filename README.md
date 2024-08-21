@@ -227,13 +227,17 @@ cycle-to-cycle, then repeatability will be maintained. The use of a thin elastom
 
 
 ### Calculating the standard deviation
+For the first method(equally distirbuted) we simply apply the fomrula over the given measurement, where with the second(finger menthod) we calculte the standard diviation over a set of given ranges, honestly considering the sensors predetermined error, those values are negliable
 
-Kaj se tu sad desilo je da je makar je equally distirbuted metoda bolja, tocnija i standard deviatio nje mnogo manje i dalje je tu problem da bu jednostavno krive vrijednosti pokazival za prst, jer jedinostavno nije kalibriran za taj dio, i to je tocno ono kaj  smo govoirlil na prvom djelu ovog naseg teksta, taj sensor je napravljen za prste, so probably for the sake fo getting somewhat dobre vrijednosti bumo morali uporabiti manje tocniju metdu, samo da dobimo toncije vrijednosti
 
 ### Pearson correlation coefficient
 Coincidentally enough, I already calcualted the standard deviation for both sets before stumbilig upon the Idea for [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) that was found while browsing [stackoverflow](https://stackoverflow.com/questions/47402209/how-to-find-correlation-between-two-values)
 
 stavi sad pearsons, to je kombinacija standardne i covariance, na kraju razlozi obadvoje
+
+### Conclusion
+
+Kaj se tu sad desilo je da je makar je equally distirbuted metoda bolja, tocnija i standard deviatio nje mnogo manje i dalje je tu problem da bu jednostavno krive vrijednosti pokazival za prst, jer jedinostavno nije kalibriran za taj dio, i to je tocno ono kaj  smo govoirlil na prvom djelu ovog naseg teksta, taj sensor je napravljen za prste, so probably for the sake fo getting somewhat dobre vrijednosti bumo morali uporabiti manje tocniju metdu, samo da dobimo toncije vrijednosti
 
 another idea is that we could use, (because of lineararity), is that we use the 2nd values for ranges from 240-260 as our starting point, where we could perhaps get more accurate measurements, clearly becauase our accureacy(measured by Standard deviation) was lower as the weight increased(because using the finger to distributed weight was getting harder and harder)
 
