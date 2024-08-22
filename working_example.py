@@ -26,25 +26,37 @@ def read_sensor():
         return struct.unpack('>H', data)[0]
     return None
 
+def calculate_weight(sensor_value):
+    # Solving for x: y = 0.172x + 3095
+    # x = (y - 3095) / 0.172
+    return (sensor_value - 3095) / 0.172
+
 def animate(i):
     value = read_sensor()
     if value is not None:
         current_time = time.time() - start_time
         x_data.append(current_time)
         y_data.append(value)
+        weight = calculate_weight(value)
+        weight_data.append(weight)
         
-        # Update the line with all data
-        line.set_data(x_data, y_data)
+        # Update the lines with all data
+        line_sensor.set_data(x_data, y_data)
+        line_weight.set_data(x_data, weight_data)
         
         # Adjust x-axis to show last 10 seconds of data
-        ax.set_xlim(max(0, current_time - 10), current_time)
+        ax1.set_xlim(max(0, current_time - 10), current_time)
+        ax2.set_xlim(max(0, current_time - 10), current_time)
         
         # Adjust y-axis to fit all visible data
         visible_y = [y for x, y in zip(x_data, y_data) if current_time - 10 <= x <= current_time]
+        visible_weight = [w for x, w in zip(x_data, weight_data) if current_time - 10 <= x <= current_time]
         if visible_y:
-            ax.set_ylim(min(visible_y) - 10, max(visible_y) + 10)
+            ax1.set_ylim(min(visible_y) - 10, max(visible_y) + 10)
+        if visible_weight:
+            ax2.set_ylim(max(0, min(visible_weight) - 10), max(visible_weight) + 10)
         
-    return line,
+    return line_sensor, line_weight
 
 # Get user input for duration
 duration = get_duration()
@@ -55,30 +67,43 @@ try:
     # Start live plotting
     print(f"Capturing and live plotting data for {duration} seconds...")
     
-    fig, ax = plt.subplots()
-    line, = ax.plot([], [], lw=2)
-    ax.set_title('Live FSR Sensor Readings')
-    ax.set_xlabel('Time (s)')
-    ax.set_ylabel('Sensor Value')
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
+    line_sensor, = ax1.plot([], [], lw=2, label='Sensor Value')
+    line_weight, = ax2.plot([], [], lw=2, color='r', label='Calculated Weight (g)')
     
-    x_data, y_data = [], []
+    ax1.set_title('Live FSR Sensor Readings')
+    ax1.set_ylabel('Sensor Value')
+    ax1.legend()
+    
+    ax2.set_xlabel('Time (s)')
+    ax2.set_ylabel('Weight (g)')
+    ax2.legend()
+    
+    x_data, y_data, weight_data = [], [], []
     start_time = time.time()
-
     ani = FuncAnimation(fig, animate, interval=50, blit=False)
-
+    
     # Live plotting for the duration specified
     plt.show(block=False)
     plt.pause(duration)
     
     # After live plotting, close the live plot window
     plt.close(fig)
-
+    
     # Plot the full data after capturing is done
-    plt.figure(figsize=(10, 6))
-    plt.plot(x_data, y_data)
-    plt.title(f'FSR Sensor Readings ({duration} seconds)')
-    plt.xlabel('Time (s)')
-    plt.ylabel('Sensor Value')
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
+    ax1.plot(x_data, y_data, label='Sensor Value')
+    ax2.plot(x_data, weight_data, color='r', label='Calculated Weight (g)')
+    
+    ax1.set_title(f'FSR Sensor Readings ({duration} seconds)')
+    ax1.set_ylabel('Sensor Value')
+    ax1.legend()
+    
+    ax2.set_xlabel('Time (s)')
+    ax2.set_ylabel('Weight (g)')
+    ax2.legend()
+    
+    plt.tight_layout()
     plt.show()
 
 except KeyboardInterrupt:
@@ -86,4 +111,3 @@ except KeyboardInterrupt:
 finally:
     ser.close()
     print("Serial port closed")
-

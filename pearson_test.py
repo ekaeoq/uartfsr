@@ -9,9 +9,9 @@ def pearson_correlation(x, y):
     
     correlation = numerator / denominator
     return correlation
-
-x = [3120.3, 3138.0, 3181.2]
-y = [0, 250, 500]
+#x = [3121.9, 3229.9, 3319.0, 3430.4]
+x = [3120.3, 3138.0, 3181.2, 3242.3]
+y = [0, 250, 500, 750]
 
 result = pearson_correlation(x, y)
 print(f"Pearson correlation coefficient: {result}")
