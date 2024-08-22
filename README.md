@@ -318,12 +318,18 @@ In our case, we end up with these values:
   
     Pearson correlation coefficient: 0.9991485447127495
 
-### Conclusion
+### Conclusion and Results
+
+Based on everything provided thus far, the reasults we got were surprisingly better than expected, or at the very least better than the 5 - 25 % we were expecting, obviously we shouldn't take Pearson's correlation at face value, because taking the mean of mean for data ranges isn't the most accurate practice, which is highlighted in standard deviations for the said method. Another thing that we can notice is, that the error becomes progressively bigger as we increase that force, while it is nowhere explicity stated in the FSR402 Guide, we can clearly see that the more force we apply the harder it become for the sensor to distinguish those chagnes, inevertably making it less accurate, chat-gpt best described this as:
+
+"In summary, while the document doesn't directly state that the sensor gets less accurate with higher forces, the described saturation effect suggests that the sensor becomes less responsive and potentially less reliable in distinguishing between different high forces. This could be interpreted as a form of reduced accuracy at higher force levels."
+
 
 Kaj se tu sad desilo je da je makar je equally distirbuted metoda bolja, tocnija i standard deviatio nje mnogo manje i dalje je tu problem da bu jednostavno krive vrijednosti pokazival za prst, jer jedinostavno nije kalibriran za taj dio, i to je tocno ono kaj  smo govoirlil na prvom djelu ovog naseg teksta, taj sensor je napravljen za prste, so probably for the sake fo getting somewhat dobre vrijednosti bumo morali uporabiti manje tocniju metdu, samo da dobimo toncije vrijednosti
 
 another idea is that we could use, (because of lineararity), is that we use the 2nd values for ranges from 240-260 as our starting point, where we could perhaps get more accurate measurements, clearly becauase our accureacy(measured by Standard deviation) was lower as the weight increased(because using the finger to distributed weight was getting harder and harder)
 
+All this, to say, that the limit to how accurate this whole comparisson is, comes down to how accurate my scale was.
 
 
 ## Methods used for each segment
