@@ -27,9 +27,9 @@ def read_sensor():
     return None
 
 def calculate_weight(sensor_value):
-    # Solving for x: y = 0.172x + 3095
-    # x = (y - 3095) / 0.172
-    return (sensor_value - 3095) / 0.172
+    #return sensor_value-3095/0.172
+    return max(0, (sensor_value - 3121.9) / 0.4114)
+
 
 def animate(i):
     value = read_sensor()
@@ -52,9 +52,12 @@ def animate(i):
         visible_y = [y for x, y in zip(x_data, y_data) if current_time - 10 <= x <= current_time]
         visible_weight = [w for x, w in zip(x_data, weight_data) if current_time - 10 <= x <= current_time]
         if visible_y:
-            ax1.set_ylim(min(visible_y) - 10, max(visible_y) + 10)
+            ax1.set_ylim(3100, max(visible_y) + 10)  # Start from 3100 as that's close to the minimum sensor value
         if visible_weight:
-            ax2.set_ylim(max(0, min(visible_weight) - 10), max(visible_weight) + 10)
+            ax2.set_ylim(0, max(max(visible_weight) + 10, 100))  # Ensure we always show at least 0-100g range
+        
+        # Print current values to console
+        print(f"\rTime: {current_time:.2f}s | Sensor: {value} | Weight: {weight:.2f}g", end="", flush=True)
         
     return line_sensor, line_weight
 
@@ -79,6 +82,9 @@ try:
     ax2.set_ylabel('Weight (g)')
     ax2.legend()
     
+    # Ensure weight graph always starts from 0
+    ax2.set_ylim(0, 100)
+    
     x_data, y_data, weight_data = [], [], []
     start_time = time.time()
     ani = FuncAnimation(fig, animate, interval=50, blit=False)
@@ -97,17 +103,20 @@ try:
     
     ax1.set_title(f'FSR Sensor Readings ({duration} seconds)')
     ax1.set_ylabel('Sensor Value')
+    ax1.set_ylim(3100, max(y_data) + 10)
     ax1.legend()
     
     ax2.set_xlabel('Time (s)')
     ax2.set_ylabel('Weight (g)')
+    ax2.set_ylim(0, max(max(weight_data) + 10, 100))  # Ensure we show all data and at least 0-100g range
     ax2.legend()
     
     plt.tight_layout()
     plt.show()
 
 except KeyboardInterrupt:
-    print("Program terminated by user")
+    print("\nProgram terminated by user")
 finally:
     ser.close()
-    print("Serial port closed")
+    print("\nSerial port closed")
+
