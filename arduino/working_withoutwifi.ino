@@ -1,46 +1,34 @@
-#include <WiFi.h>  // Optional: Keep this if you plan to use WiFi later
+#define UART_BAUD_RATE 115200
+#define UART_TX_PIN 1  
+#define UART_RX_PIN 3 
 
-const int fsrPin = 0;  // Analog pin connected to FSR402
+const int fsrPin = 0; 
+const int R_fixed = 10000;  // 10k ohms pull-down resistor
+const float V_in = 3.0;   
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(UART_BAUD_RATE, SERIAL_8N1, UART_RX_PIN, UART_TX_PIN);
+  
+  while(!Serial) { ; }
 
-  // WiFi.begin(ssid, password);  // Commented out for testing without WiFi
-
-  // while (WiFi.status() != WL_CONNECTED) {  // Commented out for testing without WiFi
-  //   delay(500);
-  //   Serial.println("Connecting to WiFi...");
-  // }
-
-  // Serial.println("Connected to WiFi");  // Commented out for testing without WiFi
 }
 
 void loop() {
   int fsrValue = analogRead(fsrPin);
-  Serial.println(fsrValue);
+
+  float V_out = (fsrValue / 4095.0) * V_in;
+  float R_fsr = R_fixed * (V_in / V_out - 1);
+  //Serial.println(R_fsr);
   
-  // Compress fsrValue to fit in 12 bits (0-4095 range)
-  int compressedValue = fsrValue & 0xFFF;  // Keep only the lower 12 bits
-
-  // The following lines are commented out to disable WiFi connection and data sending
-  // if (!client.connected()) {
-  //   if (client.connect(host, port)) {
-  //     Serial.println("Connected to server");
-  //   } else {
-  //     Serial.println("Failed to connect to server");
-  //     delay(1000);
-  //     return;
-  //   }
-  // }
-
-  // Convert the compressed value to a 2-byte array
-  uint8_t data[2];
-  data[0] = (compressedValue >> 8) & 0xFF;  // High byte
-  data[1] = compressedValue & 0xFF;         // Low byte
-
-  // Commented out to disable data sending
-  // client.write(data, 2);
-
-  delay(1000);  // Adjust delay as necessary, set to 1 second for sensor readings
+  
+  uint16_t compressedValue = fsrValue & 0xFFF;
+  
+  
+  uint8_t highByte = (compressedValue >> 8) & 0xFF;
+  uint8_t lowByte = compressedValue & 0xFF;
+  
+  Serial.write(highByte);
+  Serial.write(lowByte);
+  
+  delay(100);
 }
-
