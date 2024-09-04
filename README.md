@@ -347,7 +347,17 @@ Calculating out output voltage also corresponds with this graph:
 - example:
     based on this fomrula:
   
- $$V_{OUT} = \frac{R_M \cdot V}{R_M + R_{FSR}}\$$
+     $$V_{OUT} = \frac{R_M \cdot V}{R_M + R_{FSR}}$$
+  
+    - $V_{OUT} = \frac{10000 \cdot V3.3}{10000 + 3200\ohm}$
+    &nbsp;&nbsp; $V_{OUT} = 2.5V $
+
+    - $V_{OUT} = \frac{10000 \cdot V3.3}{10000 + 1100\ohm}$
+    &nbsp;&nbsp; $V_{OUT} = 2.99V $
+
+    - $V_{OUT} = \frac{10000 \cdot V3.3}{10000 + 10\ohm}$
+    &nbsp;&nbsp; $V_{OUT} = 3.29V $
+   
 
 
   
