@@ -334,6 +334,13 @@ All this, to say, that the limit to how accurate this whole comparisson is, come
 - This is all wrong:D, or at least I should've taken the resistor value approach, where pull-down resistor is being taking into account when doing measurements, another thing that I've noticed when rewiring the circuit, although being very logical, I didn't think it would affect the circuit that significantly, but more wire == higher resistance:O
   
 ## Re-do
+Any case values we've gotten would've been scaled anyhow, so that's not that cruicial, of course this is more about the approach rather than the values itself, because the value we get from the sensor is the only one that not constant, after calculating the pull-downresistance:
+
+```
+float R_fsr = R_fixed * (V_in / V_out - 1);
+```
+I've come to find out that the raw values pretty much correspond with those of the resistance(this probably just me being dumb but thats probably the shit sensor gives us in the first place so bruh), anyyyways, we have higer values when no force is being applied, as we should, we have lower resistance, and most importantly we have right about 1k ohms of resistance right at the 1000g mark, so this would probably work pretty well, even without any calibration, anyways, this is our new starting point 
+
 
 
 ## Methods used for each segment
