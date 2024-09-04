@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-#serial_port = '/dev/tty.usbserial-130'
-serial_port = '/dev/tty.usbserial-2130'
+serial_port = '/dev/tty.usbserial-130'
+#serial_port = '/dev/tty.usbserial-2130'
 baud_rate = 115200
 
 def get_duration():
@@ -119,4 +119,3 @@ except KeyboardInterrupt:
 finally:
     ser.close()
     print("\nSerial port closed")
-

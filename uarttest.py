@@ -4,8 +4,8 @@ import struct
 # serial_port = '/dev/ttyUSB0'  
 # /dev/cu.usbserial-1130
 # /dev/cu.usbserial-130
-serial_port = '/dev/cu.usbserial-130'
-#serial_port = '/dev/cu.usbserial-2130'
+#serial_port = '/dev/cu.usbserial-130'
+serial_port = '/dev/cu.usbserial-2130'
 baud_rate = 115200
 
 ser = serial.Serial(serial_port, baud_rate)
@@ -17,7 +17,10 @@ try:
         if len(data) == 2:
             value = struct.unpack('>H', data)[0]
 
-            print(f"Received value: {value}")
+            t = value / 10
+
+
+            print(f"Received value: {t}")
         else:
             print("Incomplete data received")
 
