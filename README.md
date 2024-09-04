@@ -331,6 +331,10 @@ We've come to a point where, despite the equally distributed method's superior a
 
 All this, to say, that the limit to how accurate this whole comparisson is, comes down to how accurate my scale was.
 
+- This is all wrong:D, or at least I should've taken the resistor value approach, where pull-down resistor is being taking into account when doing measurements, another thing that I've noticed when rewiring the circuit, although being very logical, I didn't think it would affect the circuit that significantly, but more wire == higher resistance:O
+  
+## Re-do
+
 
 ## Methods used for each segment
 - ### Plotting graphs
