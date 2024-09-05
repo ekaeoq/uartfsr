@@ -446,7 +446,48 @@ Calculating out output voltage also corresponds with this graph:
 - Resulting in a <b>average</b> of: 3430.4
    
 
+### Measurement 1: ~750g
 
+<table>
+  <tr>
+    <td>
+        <img src="https://github.com/user-attachments/assets/97193a1d-c43d-4551-b1bc-fc05bccfa2da" alt="Measurement 4 Graph" style="width: 600px;">
+    </td>
+    <td>
+      <table>
+        <thead>
+          <tr>
+            <th>Sensor Values</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1845.5</td><td>720g</td></tr>
+          <tr><td>1818.1</td><td>725g</td></tr>
+          <tr><td>1804.5</td><td>727g</td></tr>
+          <tr><td>1710.0</td><td>789g</td></tr>
+          <tr><td>1693.3</td><td>769g</td></tr>
+          <tr><td>1703.3</td><td>740g</td></tr>
+          <tr><td>1743.6</td><td>726g</td></tr>
+          <tr><td>1736.8</td><td>736g</td></tr>
+          <tr><td>1716.7</td><td>734g</td></tr>
+          <tr><td>1689.9</td><td>749g</td></tr>
+          <tr><td>1696.4</td><td>741g</td></tr>
+          <tr><td>1656.7</td><td>750g</td></tr>
+          <tr><td>1646.7</td><td>765g</td></tr>
+          <tr><td>1703.3</td><td>746g</td></tr>
+          <tr><td>1740.2</td><td>719g</td></tr>
+          <tr><td>1730.1</td><td>726g</td></tr>
+          <tr><td>1686.6</td><td>745g</td></tr>
+          <tr><td>1696.6</td><td>734g</td></tr>
+          <tr><td>1666.0</td><td>738g</td></tr>
+          <tr><td>1636.7</td><td>742g</td></tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</table>
+- Resulting in a <b>average</b> of: 3430.4
   
 
 
