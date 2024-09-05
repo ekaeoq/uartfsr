@@ -523,6 +523,9 @@ Calculating out output voltage also corresponds with this graph:
     # Show the plot
     plt.show()
     ```
+![Figure_3](https://github.com/user-attachments/assets/b1ca4116-3c72-439f-b138-01490c8ce2ee)
+![Figure_2](https://github.com/user-attachments/assets/927f70a7-841f-4f10-a886-152b440b5485)
+![Figure_1](https://github.com/user-attachments/assets/ba120c94-1ea1-44a3-8d72-0df2fdf33a72)
 
 
 
