@@ -363,7 +363,7 @@ Calculating out output voltage also corresponds with this graph:
 <table>
   <tr>
     <td>
-        <img src="https://github.com/user-attachments/assets/97193a1d-c43d-4551-b1bc-fc05bccfa2da" alt="Measurement 4 Graph" style="width: 600px;">
+        <img src="https://github.com/user-attachments/assets/ba120c94-1ea1-44a3-8d72-0df2fdf33a72" alt="Measurement 4 Graph" style="width: 600px;">
     </td>
     <td>
       <table>
@@ -402,12 +402,12 @@ Calculating out output voltage also corresponds with this graph:
 - Resulting in a <b>average</b> of: 3430.4
 
 
-### Measurement 1: ~500g
+### Measurement 2: ~500g
 
 <table>
   <tr>
     <td>
-        <img src="https://github.com/user-attachments/assets/97193a1d-c43d-4551-b1bc-fc05bccfa2da" alt="Measurement 4 Graph" style="width: 600px;">
+        <img src="https://github.com/user-attachments/assets/927f70a7-841f-4f10-a886-152b440b5485" alt="Measurement 4 Graph" style="width: 600px;">
     </td>
     <td>
       <table>
@@ -446,12 +446,12 @@ Calculating out output voltage also corresponds with this graph:
 - Resulting in a <b>average</b> of: 3430.4
    
 
-### Measurement 1: ~750g
+### Measurement 3: ~750g
 
 <table>
   <tr>
     <td>
-        <img src="https://github.com/user-attachments/assets/97193a1d-c43d-4551-b1bc-fc05bccfa2da" alt="Measurement 4 Graph" style="width: 600px;">
+        <img src="https://github.com/user-attachments/assets/b1ca4116-3c72-439f-b138-01490c8ce2ee" alt="Measurement 4 Graph" style="width: 600px;">
     </td>
     <td>
       <table>
