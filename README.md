@@ -418,26 +418,26 @@ Calculating out output voltage also corresponds with this graph:
           </tr>
         </thead>
         <tbody>
-          <tr><td>2</td><td>481g</td></tr>
-          <tr><td>2</td><td>487g</td></tr>
-          <tr><td>2</td><td>477g</td></tr>
-          <tr><td>2</td><td>495g</td></tr>
-          <tr><td>2</td><td>491g</td></tr>
-          <tr><td>2</td><td>479g</td></tr>
-          <tr><td>2</td><td>491g</td></tr>
-          <tr><td>2</td><td>500g</td></tr>
-          <tr><td>2</td><td>506g</td></tr>
-          <tr><td>2</td><td>499g</td></tr>
-          <tr><td>2</td><td>494g</td></tr>
-          <tr><td>2</td><td>500g</td></tr>
-          <tr><td>2</td><td>490g</td></tr>
-          <tr><td>2</td><td>493g</td></tr>
-          <tr><td>2</td><td>523g</td></tr>
-          <tr><td>2</td><td>519g</td></tr>
-          <tr><td>2</td><td>512g</td></tr>
-          <tr><td>2</td><td>517g</td></tr>
-          <tr><td>2</td><td>507g</td></tr>
-          <tr><td>2</td><td>497g</td></tr>
+          <tr><td>2338.0</td><td>481g</td></tr>
+          <tr><td>2323.0</td><td>487g</td></tr>
+          <tr><td>2345.5</td><td>477g</td></tr>
+          <tr><td>2308.3</td><td>495g</td></tr>
+          <tr><td>2309.3</td><td>491g</td></tr>
+          <tr><td>2323.2</td><td>479g</td></tr>
+          <tr><td>2300.9</td><td>491g</td></tr>
+          <tr><td>2289.9</td><td>500g</td></tr>
+          <tr><td>2271.5</td><td>506g</td></tr>
+          <tr><td>2267.8</td><td>499g</td></tr>
+          <tr><td>2300.0</td><td>494g</td></tr>
+          <tr><td>2267.8</td><td>500g</td></tr>
+          <tr><td>2267.8</td><td>490g</td></tr>
+          <tr><td>2271.5</td><td>493g</td></tr>
+          <tr><td>2220.2</td><td>523g</td></tr>
+          <tr><td>2234.4</td><td>519g</td></tr>
+          <tr><td>2249.4</td><td>512g</td></tr>
+          <tr><td>2264.1</td><td>517g</td></tr>
+          <tr><td>2267.8</td><td>507g</td></tr>
+          <tr><td>2271.5</td><td>497g</td></tr>
         </tbody>
       </table>
     </td>
