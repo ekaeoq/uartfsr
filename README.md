@@ -393,7 +393,7 @@ Calculating out output voltage also corresponds with this graph:
           <tr><td>2713.4</td><td>251g</td></tr>
           <tr><td>2689.8</td><td>253g</td></tr>
           <tr><td>2717.9</td><td>249g</td></tr>
-          <tr><td>3129.2</td><td>248g</td></tr>
+          <tr><td>2713.2</td><td>248g</td></tr>
         </tbody>
       </table>
     </td>
