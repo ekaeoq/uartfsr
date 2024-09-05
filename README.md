@@ -374,26 +374,70 @@ Calculating out output voltage also corresponds with this graph:
           </tr>
         </thead>
         <tbody>
-          <tr><td>2717.3</td><td>247g</td></tr>
-          <tr><td>2725.2</td><td>248g</td></tr>
-          <tr><td>2729.2</td><td>249g</td></tr>
-          <tr><td>2733.2</td><td>250g</td></tr>
-          <tr><td>2709.4</td><td>241g</td></tr>
-          <tr><td>2717.3</td><td>250g</td></tr>
-          <tr><td>2697.6</td><td>251g</td></tr>
-          <tr><td>2713.6</td><td>256g</td></tr>
-          <tr><td>2709.4</td><td>253g</td></tr>
-          <tr><td>2693.9</td><td>249g</td></tr>
-          <tr><td>2721.3</td><td>260g</td></tr>
-          <tr><td>2713.4</td><td>251g</td></tr>
-          <tr><td>2693.6</td><td>248g</td></tr>
-          <tr><td>2722.3</td><td>253g</td></tr>
-          <tr><td>2705.4</td><td>248g</td></tr>
-          <tr><td>2709.4</td><td>248g</td></tr>
-          <tr><td>2713.3</td><td>251g</td></tr>
-          <tr><td>2713.4</td><td>253g</td></tr>
-          <tr><td>2689.7</td><td>249g</td></tr>
+          <tr><td>2</td><td>247g</td></tr>
+          <tr><td>2</td><td>248g</td></tr>
+          <tr><td>2</td><td>249g</td></tr>
+          <tr><td>2</td><td>250g</td></tr>
+          <tr><td>2</td><td>241g</td></tr>
+          <tr><td>2</td><td>250g</td></tr>
+          <tr><td>2</td><td>251g</td></tr>
+          <tr><td>2</td><td>256g</td></tr>
+          <tr><td>2</td><td>253g</td></tr>
+          <tr><td>2</td><td>249g</td></tr>
+          <tr><td>2</td><td>260g</td></tr>
+          <tr><td>2</td><td>251g</td></tr>
+          <tr><td>2</td><td>248g</td></tr>
+          <tr><td>2</td><td>253g</td></tr>
+          <tr><td>2</td><td>248g</td></tr>
+          <tr><td>2</td><td>248g</td></tr>
+          <tr><td>2</td><td>251g</td></tr>
+          <tr><td>2</td><td>253g</td></tr>
+          <tr><td>2</td><td>249g</td></tr>
           <tr><td>2717.2</td><td>248g</td></tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</table>
+- Resulting in a <b>average</b> of: 3430.4
+
+
+### Measurement 1: ~500g
+
+<table>
+  <tr>
+    <td>
+        <img src="https://github.com/user-attachments/assets/97193a1d-c43d-4551-b1bc-fc05bccfa2da" alt="Measurement 4 Graph" style="width: 600px;">
+    </td>
+    <td>
+      <table>
+        <thead>
+          <tr>
+            <th>Sensor Values</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>2</td><td>481g</td></tr>
+          <tr><td>2</td><td>487g</td></tr>
+          <tr><td>2</td><td>477g</td></tr>
+          <tr><td>2</td><td>495g</td></tr>
+          <tr><td>2</td><td>491g</td></tr>
+          <tr><td>2</td><td>479g</td></tr>
+          <tr><td>2</td><td>491g</td></tr>
+          <tr><td>2</td><td>500g</td></tr>
+          <tr><td>2</td><td>506g</td></tr>
+          <tr><td>2</td><td>499g</td></tr>
+          <tr><td>2</td><td>494g</td></tr>
+          <tr><td>2</td><td>500g</td></tr>
+          <tr><td>2</td><td>490g</td></tr>
+          <tr><td>2</td><td>493g</td></tr>
+          <tr><td>2</td><td>523g</td></tr>
+          <tr><td>2</td><td>519g</td></tr>
+          <tr><td>2</td><td>512g</td></tr>
+          <tr><td>2</td><td>517g</td></tr>
+          <tr><td>2</td><td>507g</td></tr>
+          <tr><td>2</td><td>497g</td></tr>
         </tbody>
       </table>
     </td>
