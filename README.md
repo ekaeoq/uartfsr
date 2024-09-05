@@ -374,26 +374,26 @@ Calculating out output voltage also corresponds with this graph:
           </tr>
         </thead>
         <tbody>
-          <tr><td>2</td><td>247g</td></tr>
-          <tr><td>2</td><td>248g</td></tr>
-          <tr><td>2</td><td>249g</td></tr>
-          <tr><td>2</td><td>250g</td></tr>
-          <tr><td>2</td><td>241g</td></tr>
-          <tr><td>2</td><td>250g</td></tr>
-          <tr><td>2</td><td>251g</td></tr>
-          <tr><td>2</td><td>256g</td></tr>
-          <tr><td>2</td><td>253g</td></tr>
-          <tr><td>2</td><td>249g</td></tr>
-          <tr><td>2</td><td>260g</td></tr>
-          <tr><td>2</td><td>251g</td></tr>
-          <tr><td>2</td><td>248g</td></tr>
-          <tr><td>2</td><td>253g</td></tr>
-          <tr><td>2</td><td>248g</td></tr>
-          <tr><td>2</td><td>248g</td></tr>
-          <tr><td>2</td><td>251g</td></tr>
-          <tr><td>2</td><td>253g</td></tr>
-          <tr><td>2</td><td>249g</td></tr>
-          <tr><td>2717.2</td><td>248g</td></tr>
+          <tr><td>2721.3</td><td>247g</td></tr>
+          <tr><td>2725.2</td><td>248g</td></tr>
+          <tr><td>2717.3</td><td>249g</td></tr>
+          <tr><td>2713.4</td><td>250g</td></tr>
+          <tr><td>2749.0</td><td>241g</td></tr>
+          <tr><td>2725.2</td><td>250g</td></tr>
+          <tr><td>2721.3</td><td>251g</td></tr>
+          <tr><td>2713.4</td><td>256g</td></tr>
+          <tr><td>2725.2</td><td>253g</td></tr>
+          <tr><td>2723.4</td><td>249g</td></tr>
+          <tr><td>2693.4</td><td>260g</td></tr>
+          <tr><td>2713.4</td><td>251g</td></tr>
+          <tr><td>2721.3</td><td>248g</td></tr>
+          <tr><td>2705.5</td><td>253g</td></tr>
+          <tr><td>2717.3</td><td>248g</td></tr>
+          <tr><td>2713.4</td><td>248g</td></tr>
+          <tr><td>2713.4</td><td>251g</td></tr>
+          <tr><td>2689.8</td><td>253g</td></tr>
+          <tr><td>2717.9</td><td>249g</td></tr>
+          <tr><td>3129.2</td><td>248g</td></tr>
         </tbody>
       </table>
     </td>
