@@ -85,7 +85,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 </table>
 - Resulting in a <b>average</b> of: 3121.9
 
-### Measurement 2: 250g
+### Measurement 2: ~250g
 
 <table>
   <tr>
@@ -118,7 +118,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 </table>
 - Resulting in a <b>average</b> of: 3229.9
 
-### Measurement 3: 500g
+### Measurement 3: ~500g
 
 <table>
   <tr>
@@ -151,7 +151,7 @@ Received values: 3248, 3238, 3238, 3237, 3245, 3245, 3245, 3243, 3239, 3245
 </table>
 - Resulting in a <b>average</b> of: 3319
 
-### Measurement 4: 750g
+### Measurement 4: ~750g
 
 <table>
   <tr>
@@ -357,6 +357,49 @@ Calculating out output voltage also corresponds with this graph:
 
     - $V_{OUT} = \frac{10000 \cdot V3.3}{10000 + 10\ohm}$
     &nbsp;&nbsp; $V_{OUT} = 3.29V $
+
+### Measurement 1: ~250g
+
+<table>
+  <tr>
+    <td>
+        <img src="https://github.com/user-attachments/assets/97193a1d-c43d-4551-b1bc-fc05bccfa2da" alt="Measurement 4 Graph" style="width: 600px;">
+    </td>
+    <td>
+      <table>
+        <thead>
+          <tr>
+            <th>Sensor Values</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>2717.3</td><td>247g</td></tr>
+          <tr><td>2725.2</td><td>248g</td></tr>
+          <tr><td>2729.2</td><td>249g</td></tr>
+          <tr><td>2733.2</td><td>250g</td></tr>
+          <tr><td>2709.4</td><td>241g</td></tr>
+          <tr><td>2717.3</td><td>250g</td></tr>
+          <tr><td>2697.6</td><td>251g</td></tr>
+          <tr><td>2713.6</td><td>256g</td></tr>
+          <tr><td>2709.4</td><td>253g</td></tr>
+          <tr><td>2693.9</td><td>249g</td></tr>
+          <tr><td>2721.3</td><td>260g</td></tr>
+          <tr><td>2713.4</td><td>251g</td></tr>
+          <tr><td>2693.6</td><td>248g</td></tr>
+          <tr><td>2722.3</td><td>253g</td></tr>
+          <tr><td>2705.4</td><td>248g</td></tr>
+          <tr><td>2709.4</td><td>248g</td></tr>
+          <tr><td>2713.3</td><td>251g</td></tr>
+          <tr><td>2713.4</td><td>253g</td></tr>
+          <tr><td>2689.7</td><td>249g</td></tr>
+          <tr><td>2717.2</td><td>248g</td></tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</table>
+- Resulting in a <b>average</b> of: 3430.4
    
 
 
