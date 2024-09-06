@@ -493,9 +493,29 @@ Calculating out output voltage also corresponds with this graph:
 
   The results were just as good as we anticipated, in the grand scheme of things, still better than we anticipated, there’s a clear distinction between resistance values and force applied ans their correlation is not inversely proportional as god intended!!!
 
-Measurement 1 (~250g): 2716.67
-Measurement 2 (~500g): 2284.60
-Measurement 3 (~750g): 1716.05
+#### Standard deviation for all measurements:
+
+- 250g weight range (240g - 260g): 12.20
+- 500g weight range (480g - 520g): 27.13
+- 750g weight range (730g - 770g): 28.34
+
+These results are obviously worse than what we had previously, but still very acceptable
+
+#### Calculating the slope
+
+$$\text{Slope} = \frac{750g - 500g}{\text{Resistance at 750g} - \text{Resistance at 500g}}$$
+
+
+
+$$\text{Slope} = \frac{750g - 500g}{1721.92 - 2284.60} = \frac{-562.68}{250g} = -2.25072$$
+
+
+### Calculating our error
+
+
+$$\text{Error in Weight} = \frac{\text{Error in Resistance}}{\text{Slope}} = \frac{28.34}{-2.25072} \approx -12.59 \text{ grams}$$
+
+
 
 
 
