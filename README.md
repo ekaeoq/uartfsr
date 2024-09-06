@@ -399,8 +399,8 @@ Calculating out output voltage also corresponds with this graph:
     </td>
   </tr>
 </table>
-- Resulting in a <b>average</b> of: 3430.4
 
+- Resulting in a <b>average</b> of: 2716.67
 
 ### Measurement 2: ~500g
 
@@ -443,8 +443,9 @@ Calculating out output voltage also corresponds with this graph:
     </td>
   </tr>
 </table>
-- Resulting in a <b>average</b> of: 3430.4
-   
+
+- Resulting in a <b>average</b> of: 2284.60
+
 
 ### Measurement 3: ~750g
 
@@ -487,10 +488,14 @@ Calculating out output voltage also corresponds with this graph:
     </td>
   </tr>
 </table>
-- Resulting in a <b>average</b> of: 3430.4
-  
 
+- Resulting in a <b>average</b> of: 1716.05
 
+  The results were just as good as we anticipated, in the grand scheme of things, still better than we anticipated, there’s a clear distinction between resistance values and force applied ans their correlation is not inversely proportional as god intended!!!
+
+Measurement 1 (~250g): 2716.67
+Measurement 2 (~500g): 2284.60
+Measurement 3 (~750g): 1716.05
 
 
 
