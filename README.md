@@ -634,7 +634,39 @@ $$y = -0.7171x + 2017.85$$
 
 ---
 
-This equation represents the line of best fit for the given data points.
+This equation mostly fits given our data.
+
+## Final attempt: Interpolation
+I didn't wanna use it, because I wanted to find something of my own, regardless I wanted to try it, given our values, without much thinking, I'm sad to announce that even without calculating the means, or anything, depending on how sensor "feels that day" it could produce better results, which is sad, anyway:
+
+- This graph represent the code:
+
+  ![Figure_BLEH](https://github.com/user-attachments/assets/91b686cf-0a86-4b55-894d-9ef7b564fe85)
+
+```Python
+def calculate_weight(sensor_value):
+    points = [
+        (3070.5, 0),    
+        (2284.60, 500), 
+        (1845.5, 750)   
+    ]
+    
+    points.sort(reverse=True)
+    
+    for i in range(len(points) - 1):
+        x1, y1 = points[i]
+        x2, y2 = points[i + 1]
+        
+        if x2 <= sensor_value <= x1:
+            weight = y1 + (y2 - y1) * (sensor_value - x1) / (x2 - x1)
+            return max(0, weight)  
+    
+    x1, y1 = points[-2]
+    x2, y2 = points[-1]
+    weight = y1 + (y2 - y1) * (sensor_value - x1) / (x2 - x1)
+    return max(0, weight)  
+```
+
 
 ![Figure_graph](https://github.com/user-attachments/assets/91082c43-716c-449d-8b1a-3e754f6286d5)
 ![Figure_together](https://github.com/user-attachments/assets/2d0ce133-67ef-4821-bd23-ce8dc850b7ee)
