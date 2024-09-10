@@ -646,7 +646,7 @@ I didn't wanna use it, because I wanted to find something of my own, regardless 
 - This graph represent the code:
 
   ![Figure_BLEH](https://github.com/user-attachments/assets/91b686cf-0a86-4b55-894d-9ef7b564fe85)
-
+- We interpolate between 2 point if possible, if not, we use the last 2 points as our reference:
 ```Python
 def calculate_weight(sensor_value):
     points = [
