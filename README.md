@@ -515,6 +515,129 @@ $$\text{Slope} = \frac{750g - 500g}{1721.92 - 2284.60} = \frac{-562.68}{250g} = 
 
 $$\text{Error in Weight} = \frac{\text{Error in Resistance}}{\text{Slope}} = \frac{28.34}{-2.25072} \approx -12.59 \text{ grams}$$
 
+
+### Least Squares Regression: Step-by-Step Explanation
+
+#### **Given Data Points:**
+
+$$(x_1, y_1) = (2716.67, 0)$$
+
+$$(x_2, y_2) = (2284.60, 500)$$ 
+
+$$(x_3, y_3) = (1696.60, 750)$$
+
+Where $x$ is the sensor value and $y$ is the weight in grams.
+
+---
+
+### **Step 1: Calculate Means**
+
+The mean of the $x$-values $\bar{x}$ and the mean of the $y$-values $\bar{y}$ are calculated as follows:
+
+
+$$\bar{x} = \frac{x_1 + x_2 + x_3}{3} = \frac{2716.67 + 2284.60 + 1696.60}{3} = 2232.62$$
+
+$$\bar{y} = \frac{y_1 + y_2 + y_3}{3} = \frac{0 + 500 + 750}{3} = 416.67$$
+
+---
+
+### **Step 2: Calculate Sums for the Slope**
+
+To calculate the slope, we first need to compute the sums for $\Sigma(x - \bar{x})(y - \bar{y})$ and $\Sigma(x - \bar{x})^2 \$.
+
+#### Calculate \( (x - \bar{x})(y - \bar{y}) \) for each point:
+
+For $(x_1, y_1)$:
+
+$$(x_1 - \bar{x})(y_1 - \bar{y}) = (2716.67 - 2232.62)(0 - 416.67) = -201,649.69$$
+
+
+For $(x_2, y_2)$:
+
+$$(x_2 - \bar{x})(y_2 - \bar{y}) = (2284.60 - 2232.62)(500 - 416.67) = 4,333.15$$
+
+
+For $(x_3, y_3)$:
+
+$$(x_3 - \bar{x})(y_3 - \bar{y}) = (1696.60 - 2232.62)(750 - 416.67) = -178,653.46$$
+
+
+The sum is:
+
+$$\Sigma(x - \bar{x})(y - \bar{y}) = -201,649.69 + 4,333.15 - 178,653.46 = -375,970.00$$
+
+#### Calculate \( (x - \bar{x})^2 \) for each point:
+
+For $(x_1)$:
+
+$$(x_1 - \bar{x})^2 = (2716.67 - 2232.62)^2 = 234,082.25$$
+
+
+For $(x_2)$:
+
+$$(x_2 - \bar{x})^2 = (2284.60 - 2232.62)^2 = 2,704.04$$
+
+
+For $(x_3)$:
+
+$$(x_3 - \bar{x})^2 = (1696.60 - 2232.62)^2 = 287,524.00$$
+
+
+The sum is:
+
+$$\Sigma(x - \bar{x})^2 = 234,082.25 + 2,704.04 + 287,524.00 = 524,310.29$$
+
+
+---
+
+### **Step 3: Calculate the Slope ( \( m \) )**
+
+Now, we can compute the slope using the formula:
+
+
+$$m = \frac{\Sigma(x - \bar{x})(y - \bar{y})}{\Sigma(x - \bar{x})^2}$$
+
+
+Substitute the values:
+
+
+$$m = \frac{-375,970.00}{524,310.29} = -0.7171$$
+
+
+---
+
+### **Step 4: Calculate the y-intercept ( $b$ )**
+
+The y-intercept is calculated using the formula:
+
+
+$$b = \bar{y} - m\bar{x}$$
+
+Substitute the values:
+
+
+$$b = 416.67 - (-0.7171 \times 2232.62) = 416.67 + 1601.18 = 2017.85$$
+
+
+---
+
+### **Step 5: Form the Linear Regression Equation**
+
+Finally, we can write the equation of the line:
+
+
+$$y = mx + b$$
+
+
+Substitute the values of $m$ and $b$:
+
+$$y = -0.7171x + 2017.85$$
+
+
+---
+
+This equation represents the line of best fit for the given data points.
+
 ![Figure_graph](https://github.com/user-attachments/assets/91082c43-716c-449d-8b1a-3e754f6286d5)
 ![Figure_together](https://github.com/user-attachments/assets/2d0ce133-67ef-4821-bd23-ce8dc850b7ee)
 
