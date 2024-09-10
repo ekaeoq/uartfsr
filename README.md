@@ -515,6 +515,11 @@ $$\text{Slope} = \frac{750g - 500g}{1721.92 - 2284.60} = \frac{-562.68}{250g} = 
 
 $$\text{Error in Weight} = \frac{\text{Error in Resistance}}{\text{Slope}} = \frac{28.34}{-2.25072} \approx -12.59 \text{ grams}$$
 
+![Figure_graph](https://github.com/user-attachments/assets/91082c43-716c-449d-8b1a-3e754f6286d5)
+![Figure_together](https://github.com/user-attachments/assets/2d0ce133-67ef-4821-bd23-ce8dc850b7ee)
+
+
+
 
 
 
