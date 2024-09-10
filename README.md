@@ -511,12 +511,23 @@ $$\text{Slope} = \frac{750g - 500g}{1721.92 - 2284.60} = \frac{-562.68}{250g} = 
 
 
 ### Calculating our error
+Based on the formula for linearity using two points, we calculated the slope. By doing so, we can determine the type of error to expect from our sensor. This error is commonly referred to as the Standard Error of the Regression Slope, but essentially, it's just the standard deviation divided by the slope
 
+- In our example we got an error of about 13 grams
 
 $$\text{Error in Weight} = \frac{\text{Error in Resistance}}{\text{Slope}} = \frac{28.34}{-2.25072} \approx -12.59 \text{ grams}$$
 
 
-### Least Squares Regression: Step-by-Step Explanation
+### Calculating the Least Squares Regression:
+My final idea for calculating the most accurate linear representation came from ChatGPT, really by reverse-engineering its own answer that, for some reason, it wouldn't/couldn't explain:
+
+```The formula in the code (y = -0.5785x + 1707.51) is different from what we calculated. There is no mathematical process that directly takes us from our calculated formula to the one in the code.```
+
+How my reverse engineering process went was:
+- Go to Wikipedia about linear regression
+- Find a list of methods to give to ChatGPT
+- Let ChatGPT calculate the slope for each one
+- Find the one that you like most
 
 #### **Given Data Points:**
 
