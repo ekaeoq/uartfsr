@@ -636,6 +636,10 @@ $$y = -0.7171x + 2017.85$$
 
 This equation mostly fits given our data.
 
+![Figure_graph](https://github.com/user-attachments/assets/91082c43-716c-449d-8b1a-3e754f6286d5)
+![Figure_together](https://github.com/user-attachments/assets/2d0ce133-67ef-4821-bd23-ce8dc850b7ee)
+
+
 ## Final attempt: Interpolation
 I didn't wanna use it, because I wanted to find something of my own, regardless I wanted to try it, given our values, without much thinking, I'm sad to announce that even without calculating the means, or anything, depending on how sensor "feels that day" it could produce better results, which is sad, anyway:
 
@@ -675,7 +679,7 @@ def calculate_weight(sensor_value):
 
 
 
-
+____
 
 ## Methods used for each segment
 - ### Plotting graphs
