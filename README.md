@@ -636,7 +636,6 @@ $$y = -0.7171x + 2017.85$$
 
 This equation mostly fits given our data.
 
-![Figure_graph](https://github.com/user-attachments/assets/91082c43-716c-449d-8b1a-3e754f6286d5)
 ![Figure_together](https://github.com/user-attachments/assets/2d0ce133-67ef-4821-bd23-ce8dc850b7ee)
 
 
